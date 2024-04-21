@@ -9,8 +9,7 @@ Width: 360px;
 Height: 533px;
 border-radius:25px ;
 margin-left:100px ;
-background-color:white ;
-display: flex; 
+background-color:white ; 
 }
 .robert{
 width:60px;
@@ -48,3 +47,86 @@ margin-top:120px ;
 margin-left:-50px ;
 font-size:29px ;    
 }
+.header {
+    display: flex;
+    padding-left: 26px;
+    padding-top: 26px;
+    padding-right: 26px;
+    padding-bottom: 26px;
+    align-items: center;
+    height: 110px;
+    box-sizing: border-box;
+    width: 100%;
+
+
+}
+.avatar {
+    height: 60px;
+    width: 60px;
+
+}
+.name {
+    display: block;
+    line-height: 23.44px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.job {
+    display: block;
+    line-height: 25.5px;
+    font-size: 14px;
+    color: #78858F;
+    font-weight: 400;
+}
+body {
+    font-family: roboto;
+}
+.info {
+    margin-left: 10px;
+}
+.title {
+    font-family: Roboto;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    width: 310px;
+    height: 76px;
+    margin-left: 30px;
+    
+}
+.date{
+    margin-left: 30px;
+    margin-top: 1opx;   
+}
+.description{
+    margin-left:30px;
+    margin-top: 10px;
+    color:black;
+    font-weight:400px;
+    font-size: 17px;
+}
+.badge{
+    margin-top:25px ;
+    margin-left:25px ;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    width: 72px;
+    height: 27px;
+    text-align: center;
+    vertical-align: middle;
+    
+
+
+}
+.badges{
+    margin-top: 25px;
+
+}
+.footer{
+    margin-top: 40px;
+    margin-left:5px;
+
+}
+
